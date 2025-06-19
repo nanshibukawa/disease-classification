@@ -1,10 +1,10 @@
-from src.cnnClassifier.log.logger import configure_logger
+from cnnClassifier import configure_logger
 
 logger = configure_logger()
 
 def main():
 
-    logger.debug("Logger configured successfully.")
+    logger.info("Logger configured successfully.")
 
 
 if __name__ == "__main__":
