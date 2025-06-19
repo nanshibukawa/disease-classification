@@ -1,5 +1,10 @@
+from src.cnnClassifier.log.logger import configure_logger
+
+logger = configure_logger()
+
 def main():
-    print("Hello from disease-classification!")
+
+    logger.debug("Logger configured successfully.")
 
 
 if __name__ == "__main__":
