@@ -9,3 +9,468 @@
 2025-06-19 06:52:06 | INFO     | main:main:7 | Logger configured successfully.
 2025-06-19 06:58:08 | INFO     | main:main:7 | Logger configured successfully.
 2025-06-19 06:58:13 | INFO     | main:main:7 | Logger configured successfully.
+2025-06-22 14:59:06 | ERROR    | __main__:<module>:1 | Downloading file from the internet...
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'inzip_dir': 'artifacts/data_ingestion'}}
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'key': 'value'}
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-22 14:59:07 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-06-22 14:59:07 | ERROR    | __main__:<module>:8 | "'ConfigBox' object has no attribute 'unzip_dir'"
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+                               └ 'unzip_dir'
+
+KeyError: 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            │    │           └ 'unzip_dir'
+            │    └ <function Box.__getitem__ at 0x7070e6e42d40>
+            └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7070e6e94ea0>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+                                    │     └ 'unzip_dir'
+                                    └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+                               └ 'unzip_dir'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7070e6e94ea0>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+                               └ 'unzip_dir'
+
+KeyError: 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            │    │           └ 'unzip_dir'
+            │    └ <function Box.__getitem__ at 0x7070e6e42d40>
+            └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7070e6e94ea0>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+                                    │     └ 'unzip_dir'
+                                    └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+    │   └ <bound method Application.launch_instance of <class 'ipykernel.kernelapp.IPKernelApp'>>
+    └ <module 'ipykernel.kernelapp' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-pa...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+    │   └ <function IPKernelApp.start at 0x707108b1f100>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x70710aa94410>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelapp.py", line 739, in start
+    self.io_loop.start()
+    │    │       └ <function BaseAsyncIOLoop.start at 0x707108b1fec0>
+    │    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x707108b4ba50>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x70710aa94410>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/tornado/platform/asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    │    │            └ <function BaseEventLoop.run_forever at 0x70710a1651c0>
+    │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x707108b4ba50>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x70710a166fc0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x70710a2eaf20>
+    └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 545, in dispatch_queue
+    await self.process_one()
+          │    └ <function Kernel.process_one at 0x707108cd8a40>
+          └ <ipykernel.ipkernel.IPythonKernel object at 0x707108b60cd0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 534, in process_one
+    await dispatch(*args)
+          │         └ ([<zmq.Frame(b'3710fc49-d67'...36B)>, <zmq.Frame(b'<IDS|MSG>')>, <zmq.Frame(b'4f46ca361ac8'...64B)>, <zmq.Frame(b'{"date":"20...
+          └ <bound method Kernel.dispatch_shell of <ipykernel.ipkernel.IPythonKernel object at 0x707108b60cd0>>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 437, in dispatch_shell
+    await result
+          └ <coroutine object IPythonKernel.execute_request at 0x7070e4117e40>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 362, in execute_request
+    await super().execute_request(stream, ident, parent)
+                                  │       │      └ {'header': {'date': datetime.datetime(2025, 6, 22, 17, 59, 7, 10000, tzinfo=tzutc()), 'msg_id': '99917c43-7289-4dde-b34f-e431...
+                                  │       └ [b'3710fc49-d67e-455f-a7c5-249cf0a6a576']
+                                  └ <zmq.eventloop.zmqstream.ZMQStream object at 0x707108b48750>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 778, in execute_request
+    reply_content = await reply_content
+                          └ <coroutine object IPythonKernel.do_execute at 0x707108c9fba0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 449, in do_execute
+    res = shell.run_cell(
+          │     └ <function ZMQInteractiveShell.run_cell at 0x707108b1c2c0>
+          └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+                             │       └ {'store_history': True, 'silent': False, 'cell_id': 'vscode-notebook-cell:/home/nanshibukawa/Documents/mestrado/disease-class...
+                             └ ('try:\n    config = ConfigurationManager()\n    data_ingestion_config = config.get_data_ingestion_config()\n    data_ingesti...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3100, in run_cell
+    result = self._run_cell(
+             │    └ <function InteractiveShell._run_cell at 0x7071096ec540>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3155, in _run_cell
+    result = runner(coro)
+             │      └ <coroutine object InteractiveShell.run_cell_async at 0x7071041375e0>
+             └ <function _pseudo_sync_runner at 0x7071096bf560>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+    │    └ <method 'send' of 'coroutine' objects>
+    └ <coroutine object InteractiveShell.run_cell_async at 0x7071041375e0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3367, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+                       │    │             │        │     └ '/tmp/ipykernel_10350/1555912571.py'
+                       │    │             │        └ [<ast.Try object at 0x7070dff2ac80>]
+                       │    │             └ <ast.Module object at 0x7070dff29960>
+                       │    └ <function InteractiveShell.run_ast_nodes at 0x7071096ec900>
+                       └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3612, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+             │    │        │     │              └ False
+             │    │        │     └ <ExecutionResult object at 7070dff574d0, execution_count=12 error_before_exec=None error_in_exec=None info=<ExecutionInfo obj...
+             │    │        └ <code object <module> at 0x7070e40c9a70, file "/tmp/ipykernel_10350/1555912571.py", line 1>
+             │    └ <function InteractiveShell.run_code at 0x7071096ec9a0>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3672, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+         │         │    │               │    └ <property object at 0x7071096d6110>
+         │         │    │               └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+         │         │    └ <property object at 0x7071096d61b0>
+         │         └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7070e7e27710>
+         └ <code object <module> at 0x7070e40c9a70, file "/tmp/ipykernel_10350/1555912571.py", line 1>
+
+> File "/tmp/ipykernel_10350/1555912571.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            │      └ <function ConfigurationManager.get_data_ingestion_config at 0x7070dff3af20>
+                            └ <__main__.ConfigurationManager object at 0x7070dff56950>
+
+  File "/tmp/ipykernel_10350/221262974.py", line 23, in get_data_ingestion_config
+    unzip_dir=config.unzip_dir
+              └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+                               │    └ <method 'lower' of 'str' objects>
+                               └ 'unzip_dir'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7070e6e94ea0>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+2025-06-23 20:48:15 | ERROR    | __main__:<module>:1 | Downloading file from the internet...
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'inzip_dir': 'artifacts/data_ingestion'}}
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'key': 'value'}
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-23 20:48:15 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-06-23 20:48:15 | ERROR    | __main__:<module>:8 | "'ConfigBox' object has no attribute 'unzip_dir'"
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+                               └ 'unzip_dir'
+
+KeyError: 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            │    │           └ 'unzip_dir'
+            │    └ <function Box.__getitem__ at 0x7ea1007f2840>
+            └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7ea108066c00>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+                                    │     └ 'unzip_dir'
+                                    └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/config_box.py", line 28, in __getattr__
+    return super().__getattr__(item)
+                               └ 'unzip_dir'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7ea108066c00>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 503, in __getitem__
+    return super().__getitem__(item)
+                               └ 'unzip_dir'
+
+KeyError: 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 536, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            │    │           └ 'unzip_dir'
+            │    └ <function Box.__getitem__ at 0x7ea1007f2840>
+            └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 524, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7ea108066c00>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'unzip_dir'"
+
+
+During handling of the above exception, another exception occurred:
+
+
+Traceback (most recent call last):
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 538, in __getattr__
+    value = object.__getattribute__(self, item)
+                                    │     └ 'unzip_dir'
+                                    └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+AttributeError: 'ConfigBox' object has no attribute 'unzip_dir'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel_launcher.py", line 18, in <module>
+    app.launch_new_instance()
+    │   └ <bound method Application.launch_instance of <class 'ipykernel.kernelapp.IPKernelApp'>>
+    └ <module 'ipykernel.kernelapp' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-pa...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/traitlets/config/application.py", line 1075, in launch_instance
+    app.start()
+    │   └ <function IPKernelApp.start at 0x7ea1096db100>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x7ea10b694410>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelapp.py", line 739, in start
+    self.io_loop.start()
+    │    │       └ <function BaseAsyncIOLoop.start at 0x7ea1096dbec0>
+    │    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7ea1097078d0>
+    └ <ipykernel.kernelapp.IPKernelApp object at 0x7ea10b694410>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/tornado/platform/asyncio.py", line 211, in start
+    self.asyncio_loop.run_forever()
+    │    │            └ <function BaseEventLoop.run_forever at 0x7ea10ad011c0>
+    │    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+    └ <tornado.platform.asyncio.AsyncIOMainLoop object at 0x7ea1097078d0>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 608, in run_forever
+    self._run_once()
+    │    └ <function BaseEventLoop._run_once at 0x7ea10ad02fc0>
+    └ <_UnixSelectorEventLoop running=True closed=False debug=False>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/base_events.py", line 1936, in _run_once
+    handle._run()
+    │      └ <function Handle._run at 0x7ea10aeeaf20>
+    └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+  File "/home/nanshibukawa/.local/share/uv/python/cpython-3.11.9-linux-x86_64-gnu/lib/python3.11/asyncio/events.py", line 84, in _run
+    self._context.run(self._callback, *self._args)
+    │    │            │    │           │    └ <member '_args' of 'Handle' objects>
+    │    │            │    │           └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+    │    │            │    └ <member '_callback' of 'Handle' objects>
+    │    │            └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+    │    └ <member '_context' of 'Handle' objects>
+    └ <Handle Task.task_wakeup(<Future finis...4B)>, ...],))>)>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 545, in dispatch_queue
+    await self.process_one()
+          │    └ <function Kernel.process_one at 0x7ea109894a40>
+          └ <ipykernel.ipkernel.IPythonKernel object at 0x7ea10971cdd0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 534, in process_one
+    await dispatch(*args)
+          │         └ ([<zmq.Frame(b'89c03bcf-d73'...36B)>, <zmq.Frame(b'<IDS|MSG>')>, <zmq.Frame(b'e5c503413138'...64B)>, <zmq.Frame(b'{"date":"20...
+          └ <bound method Kernel.dispatch_shell of <ipykernel.ipkernel.IPythonKernel object at 0x7ea10971cdd0>>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 437, in dispatch_shell
+    await result
+          └ <coroutine object IPythonKernel.execute_request at 0x7ea0e8fd8e40>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 362, in execute_request
+    await super().execute_request(stream, ident, parent)
+                                  │       │      └ {'header': {'date': datetime.datetime(2025, 6, 23, 23, 48, 15, 808000, tzinfo=tzutc()), 'msg_id': '15f6f201-c575-4d6e-aacf-44...
+                                  │       └ [b'89c03bcf-d735-4333-ac7c-6fd43ddfe90d']
+                                  └ <zmq.eventloop.zmqstream.ZMQStream object at 0x7ea109707850>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/kernelbase.py", line 778, in execute_request
+    reply_content = await reply_content
+                          └ <coroutine object IPythonKernel.do_execute at 0x7ea10985bba0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/ipkernel.py", line 449, in do_execute
+    res = shell.run_cell(
+          │     └ <function ZMQInteractiveShell.run_cell at 0x7ea1096d82c0>
+          └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/ipykernel/zmqshell.py", line 549, in run_cell
+    return super().run_cell(*args, **kwargs)
+                             │       └ {'store_history': True, 'silent': False, 'cell_id': 'vscode-notebook-cell:/home/nanshibukawa/Documents/mestrado/disease-class...
+                             └ ('try:\n    config = ConfigurationManager()\n    data_ingestion_config = config.get_data_ingestion_config()\n    data_ingesti...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3100, in run_cell
+    result = self._run_cell(
+             │    └ <function InteractiveShell._run_cell at 0x7ea10a2a8540>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3155, in _run_cell
+    result = runner(coro)
+             │      └ <coroutine object InteractiveShell.run_cell_async at 0x7ea1084ff5e0>
+             └ <function _pseudo_sync_runner at 0x7ea10a27b560>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/async_helpers.py", line 128, in _pseudo_sync_runner
+    coro.send(None)
+    │    └ <method 'send' of 'coroutine' objects>
+    └ <coroutine object InteractiveShell.run_cell_async at 0x7ea1084ff5e0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3367, in run_cell_async
+    has_raised = await self.run_ast_nodes(code_ast.body, cell_name,
+                       │    │             │        │     └ '/tmp/ipykernel_9509/1555912571.py'
+                       │    │             │        └ [<ast.Try object at 0x7ea0e8386d10>]
+                       │    │             └ <ast.Module object at 0x7ea0e8386e00>
+                       │    └ <function InteractiveShell.run_ast_nodes at 0x7ea10a2a8900>
+                       └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3612, in run_ast_nodes
+    if await self.run_code(code, result, async_=asy):
+             │    │        │     │              └ False
+             │    │        │     └ <ExecutionResult object at 7ea0e8437010, execution_count=11 error_before_exec=None error_in_exec=None info=<ExecutionInfo obj...
+             │    │        └ <code object <module> at 0x7ea0e8429a70, file "/tmp/ipykernel_9509/1555912571.py", line 1>
+             │    └ <function InteractiveShell.run_code at 0x7ea10a2a89a0>
+             └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/IPython/core/interactiveshell.py", line 3672, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+         │         │    │               │    └ <property object at 0x7ea10a292160>
+         │         │    │               └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+         │         │    └ <property object at 0x7ea10a292200>
+         │         └ <ipykernel.zmqshell.ZMQInteractiveShell object at 0x7ea10825b810>
+         └ <code object <module> at 0x7ea0e8429a70, file "/tmp/ipykernel_9509/1555912571.py", line 1>
+
+> File "/tmp/ipykernel_9509/1555912571.py", line 3, in <module>
+    data_ingestion_config = config.get_data_ingestion_config()
+                            │      └ <function ConfigurationManager.get_data_ingestion_config at 0x7ea0e8ffbce0>
+                            └ <__main__.ConfigurationManager object at 0x7ea0e8436850>
+
+  File "/tmp/ipykernel_9509/221262974.py", line 23, in get_data_ingestion_config
+    unzip_dir=config.unzip_dir
+              └ ConfigBox({'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZ...
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/config_box.py", line 30, in __getattr__
+    return super().__getattr__(item.lower())
+                               │    └ <method 'lower' of 'str' objects>
+                               └ 'unzip_dir'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/box/box.py", line 552, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+          │                          └ <function _exception_cause at 0x7ea108066c00>
+          └ <class 'box.exceptions.BoxKeyError'>
+
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
+2025-06-23 20:51:14 | ERROR    | __main__:<module>:1 | Downloading file from the internet...
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'key': 'value'}
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-06-23 20:51:14 | INFO     | __main__:download_file:13 | Downloading data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-23 20:54:44 | INFO     | __main__:download_file:19 | Downloaded data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip

@@ -29,6 +29,7 @@ list_of_files = [
     f"src/{project_name}/logger.py",
     f"src/{project_name}/exceptions.py",
     f"src/{project_name}/utils/common.py",
+    f"src/{project_name}/constants/constants.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",

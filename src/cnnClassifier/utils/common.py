@@ -1,7 +1,7 @@
 import os
 from box.exceptions import BoxValueError
 import yaml
-from cnnClassifier import logger
+from cnnClassifier.logger import configure_logger
 import json
 import joblib
 from ensure import ensure_annotations
@@ -10,7 +10,7 @@ from pathlib import Path
 from typing import Any
 import base64
 
-
+logger = configure_logger(__name__)
 @ensure_annotations
 def read_yaml(path_to_yaml: Path) -> ConfigBox:
     """
