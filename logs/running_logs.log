@@ -486,3 +486,70 @@ box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
 2025-06-23 21:27:36 | INFO     | __main__:<module>:15 | >>>>> stage Data Ingestion stage completed <<<<<<<
 
 x==========x
+2025-06-24 09:25:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:25:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+2025-06-24 09:25:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:25:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:25:45 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:26:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:26:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+2025-06-24 09:26:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:26:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:26:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:27:18 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:27:18 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+2025-06-24 09:27:18 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:27:18 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:27:18 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:28:14 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:29:54 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:30:39 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:32:22 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:32:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:51:25 | INFO     | __main__:<module>:13 | >>>>> stage Data Ingestion stage started <<<<<<<
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:51:25 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-06-24 09:51:25 | INFO     | cnnClassifier.components.data_ingestion:download_file:23 | Downloading data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-24 09:55:06 | INFO     | cnnClassifier.components.data_ingestion:download_file:29 | Downloaded data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-24 09:55:15 | INFO     | __main__:<module>:16 | >>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x
+2025-06-24 09:55:15 | INFO     | __main__:<module>:24 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}}
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 2, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-24 09:55:15 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-06-24 09:55:15 | INFO     | __main__:<module>:27 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
