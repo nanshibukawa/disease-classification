@@ -16,3 +16,4 @@ research/kidney-CT-Scan-data.zip
 artifacts/data_ingestion/data.zip
 artifacts/data_ingestion/kidneyData.csv
 artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/
+artifacts/*

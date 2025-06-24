@@ -474,3 +474,15 @@ box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'unzip_dir'"
 2025-06-23 20:51:14 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
 2025-06-23 20:51:14 | INFO     | __main__:download_file:13 | Downloading data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
 2025-06-23 20:54:44 | INFO     | __main__:download_file:19 | Downloaded data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-23 21:23:31 | INFO     | __main__:<module>:12 | >>>>> stage Data Ingestion stage started <<<<<<<
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}}
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'key': 'value'}
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-06-23 21:23:31 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-06-23 21:23:31 | INFO     | cnnClassifier.components.data_ingestion:download_file:23 | Downloading data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-23 21:27:26 | INFO     | cnnClassifier.components.data_ingestion:download_file:29 | Downloaded data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-06-23 21:27:36 | INFO     | __main__:<module>:15 | >>>>> stage Data Ingestion stage completed <<<<<<<
+
+x==========x
