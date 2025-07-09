@@ -15,6 +15,12 @@ class Training:
         self.model = tf.keras.models.load_model(
             self.config.updated_base_model_path
         )
+        # Recompile o modelo com um novo otimizador após carregar
+        self.model.compile(
+            optimizer=tf.keras.optimizers.SGD(learning_rate=self.config.params_learning_rate),
+            loss=tf.keras.losses.CategoricalCrossentropy(reduction='sum_over_batch_size'),
+            metrics=['accuracy']
+        )
     
     def train_valid_generator(self):
 
@@ -76,6 +82,8 @@ class Training:
             validation_steps=self.validation_steps,
             validation_data=self.valid_generator,
         )
+
+
 
         self.save_model(
             path=self.config.trained_model_path,

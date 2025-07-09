@@ -659,3 +659,1419 @@ x==========x
 2025-06-30 20:11:47 | INFO     | __main__:<module>:39 | >>>>> stage Model Training completed <<<<<<<
 
 x==========x
+2025-07-01 21:01:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-01 21:01:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-01 21:01:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-01 21:01:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-01 21:01:30 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-01 21:02:27 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-01 21:02:27 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-01 21:02:27 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-01 21:02:27 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-01 21:02:27 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-01 21:02:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-01 21:02:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-01 21:02:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-01 21:02:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-01 21:02:50 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-01 21:09:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-01 21:09:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-01 21:09:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-01 21:09:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-01 21:09:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 08:02:10 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 08:02:10 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 08:02:10 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 08:02:10 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-02 08:02:10 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 08:05:23 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-02 19:48:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 19:48:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 19:48:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 19:48:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-02 19:48:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 19:51:29 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-02 20:02:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 20:02:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 20:02:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 20:02:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 1, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.01}
+2025-07-02 20:02:45 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 20:05:57 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-02 20:14:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 20:14:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 20:14:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 20:14:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 5, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.02}
+2025-07-02 20:14:53 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 20:18:16 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-02 20:31:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 20:31:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 20:31:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 20:31:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 5, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.02}
+2025-07-02 20:31:45 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 20:35:03 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-02 20:39:35 | INFO     | __main__:<module>:14 | >>>>> stage Data Ingestion stage started <<<<<<<
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 20:39:35 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/data_ingestion
+2025-07-02 20:39:35 | INFO     | cnnClassifier.components.data_ingestion:download_file:23 | Downloading data from https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing into file artifacts/data_ingestion/data.zip
+2025-07-02 20:40:24 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-02 20:40:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:45:29 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:45:29 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:45:30 | ERROR    | __main__:<module>:41 | Invalid value for argument `reduction`. Expected one of {'none', 'sum', 'sum_over_batch_size', 'mean', 'mean_with_sample_weight', None}. Received: reduction=auto
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x70a1a76d5620>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x70a1aa2c9310>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.get_base_model()
+    │        └ <function Training.get_base_model at 0x70a1a76d5760>
+    └ <cnnClassifier.components.model_training.Training object at 0x70a1aa2dcf50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 15, in get_base_model
+    self.model = tf.keras.models.load_model(
+    │            │  │     │      └ <function load_model at 0x70a1b75b3560>
+    │            │  │     └ <module 'keras.models' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/...
+    │            │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+    │            └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+    └ <cnnClassifier.components.model_training.Training object at 0x70a1aa2dcf50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           │                └ <function load_model_from_hdf5 at 0x70a1b741c040>
+           └ <module 'keras.src.legacy.saving.legacy_h5_format' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/l...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      │            └ <function compile_args_from_training_config at 0x70a1abe2f920>
+      └ <module 'keras.src.legacy.saving.saving_utils' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/p...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 146, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           │                          │      │            └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           │                          │      └ <function deserialize at 0x70a1b7467f60>
+           │                          └ <module 'keras.src.losses' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packa...
+           └ <function _deserialize_nested_config at 0x70a1abe307c0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 205, in _deserialize_nested_config
+    return deserialize_fn(config)
+           │              └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           └ <function deserialize at 0x70a1b7467f60>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           │                 └ <function deserialize_keras_object at 0x70a1b75c9300>
+           └ <module 'keras.src.saving.serialization_lib' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/pyt...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           └ <function deserialize_keras_object at 0x70a1b75c9300>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               │   │           └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+               │   └ <classmethod(<function LossFunctionWrapper.from_config at 0x70a1b748c4a0>)>
+               └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 45, in from_config
+    return cls(**config)
+           │     └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+           └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 969, in __init__
+    super().__init__(
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 23, in __init__
+    super().__init__(name=name, reduction=reduction, dtype=dtype)
+                          │               │                └ None
+                          │               └ 'auto'
+                          └ 'categorical_crossentropy'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 48, in __init__
+    self.reduction = standardize_reduction(reduction)
+    │                │                     └ 'auto'
+    │                └ <function standardize_reduction at 0x70a1b74674c0>
+    └ <unprintable CategoricalCrossentropy object>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 111, in standardize_reduction
+    raise ValueError(
+
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'sum', 'sum_over_batch_size', 'mean', 'mean_with_sample_weight', None}. Received: reduction=auto
+2025-07-04 08:48:32 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:48:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:48:33 | ERROR    | __main__:<module>:41 | Invalid value for argument `reduction`. Expected one of {'none', 'mean_with_sample_weight', 'mean', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x7ba89ab81620>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7ba95b99cbd0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.get_base_model()
+    │        └ <function Training.get_base_model at 0x7ba89ab81760>
+    └ <cnnClassifier.components.model_training.Training object at 0x7ba89ab4dc90>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 15, in get_base_model
+    self.model = tf.keras.models.load_model(
+    │            │  │     │      └ <function load_model at 0x7ba8aaa4f600>
+    │            │  │     └ <module 'keras.models' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/...
+    │            │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+    │            └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+    └ <cnnClassifier.components.model_training.Training object at 0x7ba89ab4dc90>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           │                └ <function load_model_from_hdf5 at 0x7ba8aaab80e0>
+           └ <module 'keras.src.legacy.saving.legacy_h5_format' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/l...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      │            └ <function compile_args_from_training_config at 0x7ba89f5af9c0>
+      └ <module 'keras.src.legacy.saving.saving_utils' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/p...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 146, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           │                          │      │            └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           │                          │      └ <function deserialize at 0x7ba8aa928180>
+           │                          └ <module 'keras.src.losses' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packa...
+           └ <function _deserialize_nested_config at 0x7ba89f5b0860>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 205, in _deserialize_nested_config
+    return deserialize_fn(config)
+           │              └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           └ <function deserialize at 0x7ba8aa928180>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           │                 └ <function deserialize_keras_object at 0x7ba8aaa613a0>
+           └ <module 'keras.src.saving.serialization_lib' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/pyt...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           └ <function deserialize_keras_object at 0x7ba8aaa613a0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               │   │           └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+               │   └ <classmethod(<function LossFunctionWrapper.from_config at 0x7ba8aa928540>)>
+               └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 45, in from_config
+    return cls(**config)
+           │     └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+           └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 969, in __init__
+    super().__init__(
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 23, in __init__
+    super().__init__(name=name, reduction=reduction, dtype=dtype)
+                          │               │                └ None
+                          │               └ 'auto'
+                          └ 'categorical_crossentropy'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 48, in __init__
+    self.reduction = standardize_reduction(reduction)
+    │                │                     └ 'auto'
+    │                └ <function standardize_reduction at 0x7ba8aa903560>
+    └ <unprintable CategoricalCrossentropy object>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 111, in standardize_reduction
+    raise ValueError(
+
+ValueError: Invalid value for argument `reduction`. Expected one of {'none', 'mean_with_sample_weight', 'mean', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+2025-07-04 08:49:19 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:49:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:49:20 | ERROR    | __main__:<module>:41 | Invalid value for argument `reduction`. Expected one of {'mean', 'none', 'mean_with_sample_weight', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x77378d0456c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7738606a1510>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.get_base_model()
+    │        └ <function Training.get_base_model at 0x77378d045800>
+    └ <cnnClassifier.components.model_training.Training object at 0x773799f89950>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 15, in get_base_model
+    self.model = tf.keras.models.load_model(
+    │            │  │     │      └ <function load_model at 0x773798f53600>
+    │            │  │     └ <module 'keras.models' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/...
+    │            │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+    │            └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+    └ <cnnClassifier.components.model_training.Training object at 0x773799f89950>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           │                └ <function load_model_from_hdf5 at 0x773798fb80e0>
+           └ <module 'keras.src.legacy.saving.legacy_h5_format' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/l...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 155, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      │            └ <function compile_args_from_training_config at 0x773791a439c0>
+      └ <module 'keras.src.legacy.saving.saving_utils' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/p...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 146, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+           │                          │      │            └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           │                          │      └ <function deserialize at 0x773798e30180>
+           │                          └ <module 'keras.src.losses' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packa...
+           └ <function _deserialize_nested_config at 0x773791a48860>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/saving_utils.py", line 205, in _deserialize_nested_config
+    return deserialize_fn(config)
+           │              └ {'class_name': 'CategoricalCrossentropy', 'config': {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': ...
+           └ <function deserialize at 0x773798e30180>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           │                 └ <function deserialize_keras_object at 0x773798f693a0>
+           └ <module 'keras.src.saving.serialization_lib' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/pyt...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 581, in deserialize_keras_object
+    return deserialize_keras_object(
+           └ <function deserialize_keras_object at 0x773798f693a0>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/serialization_lib.py", line 718, in deserialize_keras_object
+    instance = cls.from_config(inner_config)
+               │   │           └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+               │   └ <classmethod(<function LossFunctionWrapper.from_config at 0x773798e30540>)>
+               └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 45, in from_config
+    return cls(**config)
+           │     └ {'reduction': 'auto', 'name': 'categorical_crossentropy', 'from_logits': False, 'label_smoothing': 0.0, 'axis': -1}
+           └ <class 'keras.src.losses.losses.CategoricalCrossentropy'>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 969, in __init__
+    super().__init__(
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/losses.py", line 23, in __init__
+    super().__init__(name=name, reduction=reduction, dtype=dtype)
+                          │               │                └ None
+                          │               └ 'auto'
+                          └ 'categorical_crossentropy'
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 48, in __init__
+    self.reduction = standardize_reduction(reduction)
+    │                │                     └ 'auto'
+    │                └ <function standardize_reduction at 0x773798e0b560>
+    └ <unprintable CategoricalCrossentropy object>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/losses/loss.py", line 111, in standardize_reduction
+    raise ValueError(
+
+ValueError: Invalid value for argument `reduction`. Expected one of {'mean', 'none', 'mean_with_sample_weight', 'sum_over_batch_size', 'sum', None}. Received: reduction=auto
+2025-07-04 08:50:55 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:50:55 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:50:55 | ERROR    | __main__:<module>:41 | [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x78f3b81656c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x78f3babe77d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.get_base_model()
+    │        └ <function Training.get_base_model at 0x78f3b8165800>
+    └ <cnnClassifier.components.model_training.Training object at 0x78f3b82a1910>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 15, in get_base_model
+    self.model = tf.keras.models.load_model(
+    │            │  │     │      └ <function load_model at 0x78f3c8053600>
+    │            │  │     └ <module 'keras.models' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/...
+    │            │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+    │            └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+    └ <cnnClassifier.components.model_training.Training object at 0x78f3b82a1910>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/saving/saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           │                └ <function load_model_from_hdf5 at 0x78f3c80bc0e0>
+           └ <module 'keras.src.legacy.saving.legacy_h5_format' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/l...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/legacy/saving/legacy_h5_format.py", line 116, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+        │    │    └ PosixPath('artifacts/prepare_base_model/base_model_updated.h5')
+        │    └ <class 'h5py._hl.files.File'>
+        └ <module 'h5py' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/h5py/__i...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/h5py/_hl/files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+          │        │     │     │               │     │          └ False
+          │        │     │     │               │     └ None
+          │        │     │     │               └ <h5py.h5p.PropFAID object at 0x78f471f96200>
+          │        │     │     └ None
+          │        │     └ 'r'
+          │        └ b'artifacts/prepare_base_model/base_model_updated.h5'
+          └ <function make_fid at 0x78f408819940>
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/h5py/_hl/files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+          │   │    │     │           └ <h5py.h5p.PropFAID object at 0x78f471f96200>
+          │   │    │     └ 0
+          │   │    └ b'artifacts/prepare_base_model/base_model_updated.h5'
+          │   └ <cyfunction open at 0x78f408f74880>
+          └ <module 'h5py.h5f' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/h5py...
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+
+FileNotFoundError: [Errno 2] Unable to synchronously open file (unable to open file: name = 'artifacts/prepare_base_model/base_model_updated.h5', errno = 2, error message = 'No such file or directory', flags = 0, o_flags = 0)
+2025-07-04 08:51:46 | INFO     | __main__:<module>:25 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:51:46 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-04 08:51:47 | INFO     | __main__:<module>:28 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-04 08:51:47 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 08:51:47 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 08:51:48 | ERROR    | __main__:<module>:41 | numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x743f5696d6c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x744025d69150>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x743f5696d9e0>
+    └ <cnnClassifier.components.model_training.Training object at 0x743f569b3dd0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x743f5b39f2e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x743f569b3dd0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/backend/tensorflow/core.py", line 171, in convert_to_numpy
+    return np.array(x)
+           │  │     └ <tf.Variable 'dense/kernel:0' shape=(25088, 4) dtype=float32, numpy=
+           │  │       array([[ 0.00284199,  0.0083356 ,  0.01028373,  0.008910...
+           │  └ <built-in function array>
+           └ <module 'numpy' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/numpy/_...
+
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-07-04 09:00:16 | INFO     | __main__:<module>:25 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:00:16 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-04 09:00:17 | INFO     | __main__:<module>:28 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-04 09:00:17 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:00:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 09:00:26 | ERROR    | __main__:<module>:41 | Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.00657365 -0.00631856  0.00875179  0.0096578 ]
+ [ 0.00877927 -0.00521607  0.0128434   0.00054208]
+ [-0.00562365 -0.0024826   0.00366109 -0.01247707]
+ ...
+ [ 0.01362063 -0.00169307 -0.00854769  0.00956243]
+ [ 0.0117281  -0.00584514  0.0074381  -0.00097436]
+ [-0.00290751 -0.00767718  0.00732328 -0.0030916 ]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x722330f4fba0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7223d553c9d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x72232fe8d940>
+    └ <cnnClassifier.components.model_training.Training object at 0x72232fec1090>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x7223347d7380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x72232fec1090>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/optimizers/base_optimizer.py", line 409, in _check_variables_are_known
+    raise ValueError(
+
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.00657365 -0.00631856  0.00875179  0.0096578 ]
+ [ 0.00877927 -0.00521607  0.0128434   0.00054208]
+ [-0.00562365 -0.0024826   0.00366109 -0.01247707]
+ ...
+ [ 0.01362063 -0.00169307 -0.00854769  0.00956243]
+ [ 0.0117281  -0.00584514  0.0074381  -0.00097436]
+ [-0.00290751 -0.00767718  0.00732328 -0.0030916 ]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+2025-07-04 09:01:44 | INFO     | __main__:<module>:25 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:01:44 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-04 09:01:45 | INFO     | __main__:<module>:28 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-04 09:01:45 | INFO     | __main__:<module>:36 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:01:45 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 09:01:46 | ERROR    | __main__:<module>:41 | numpy() is only available when eager execution is enabled.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x761ab3a8d760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x761b597d2bd0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x761ab3a8da80>
+    └ <cnnClassifier.components.model_training.Training object at 0x761ab3ad38d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x761abc45b380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x761ab3ad38d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/backend/tensorflow/core.py", line 171, in convert_to_numpy
+    return np.array(x)
+           │  │     └ <tf.Variable 'dense/kernel:0' shape=(25088, 4) dtype=float32, numpy=
+           │  │       array([[ 0.01419632, -0.01305498, -0.00283477, -0.006341...
+           │  └ <built-in function array>
+           └ <module 'numpy' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/numpy/_...
+
+NotImplementedError: numpy() is only available when eager execution is enabled.
+2025-07-04 09:04:16 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:04:16 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-04 09:04:17 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-04 09:04:17 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-04 09:04:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-04 09:04:25 | ERROR    | __main__:<module>:42 | Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.01384382  0.00136272 -0.01462638 -0.01007523]
+ [ 0.00555332  0.01309112  0.01519845 -0.01494299]
+ [-0.00972462 -0.01246434  0.01268866 -0.0110142 ]
+ ...
+ [-0.01328524  0.00500678 -0.00348794 -0.01315584]
+ [-0.01055911  0.01181826 -0.01074765 -0.0024231 ]
+ [-0.00975592 -0.0154531  -0.00495807 -0.00911475]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x787ab4bb5620>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x787ab0132c50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x787ab4bb5940>
+    └ <cnnClassifier.components.model_training.Training object at 0x787b88503f50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x787ab93872e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x787b88503f50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/optimizers/base_optimizer.py", line 409, in _check_variables_are_known
+    raise ValueError(
+
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.01384382  0.00136272 -0.01462638 -0.01007523]
+ [ 0.00555332  0.01309112  0.01519845 -0.01494299]
+ [-0.00972462 -0.01246434  0.01268866 -0.0110142 ]
+ ...
+ [-0.01328524  0.00500678 -0.00348794 -0.01315584]
+ [-0.01055911  0.01181826 -0.01074765 -0.0024231 ]
+ [-0.00975592 -0.0154531  -0.00495807 -0.00911475]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+2025-07-05 13:13:35 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:13:35 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 13:13:37 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 13:13:37 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:13:37 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 13:13:46 | ERROR    | __main__:<module>:42 | Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.00274359  0.00314107 -0.00307775  0.00070148]
+ [ 0.00024084  0.01326614 -0.01227079 -0.01084077]
+ [ 0.01187703  0.00906267  0.01259681 -0.00371193]
+ ...
+ [-0.00698829  0.00925376  0.00540726  0.00589403]
+ [ 0.00330509 -0.00855024 -0.00468356 -0.01323997]
+ [ 0.00649466  0.00872126  0.00370087 -0.00675454]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x76af94f9d6c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x76b068903f50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x76af94f9d9e0>
+    └ <cnnClassifier.components.model_training.Training object at 0x76b0684d0690>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x76af9d9d72e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x76b0684d0690>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/optimizers/base_optimizer.py", line 409, in _check_variables_are_known
+    raise ValueError(
+
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.00274359  0.00314107 -0.00307775  0.00070148]
+ [ 0.00024084  0.01326614 -0.01227079 -0.01084077]
+ [ 0.01187703  0.00906267  0.01259681 -0.00371193]
+ ...
+ [-0.00698829  0.00925376  0.00540726  0.00589403]
+ [ 0.00330509 -0.00855024 -0.00468356 -0.01323997]
+ [ 0.00649466  0.00872126  0.00370087 -0.00675454]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+2025-07-05 13:17:08 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:17:08 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 13:17:09 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 13:17:09 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:17:09 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 13:17:18 | ERROR    | __main__:<module>:42 | Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-9.63621121e-03  5.73409721e-04 -8.16724822e-03  2.83151865e-03]
+ [ 1.00623015e-02 -6.28236309e-03 -7.21181650e-03  1.01631507e-03]
+ [-1.42703373e-02  4.39137220e-05  8.77774693e-03  1.24822594e-02]
+ ...
+ [-1.02092596e-02  4.14941460e-04  1.38154421e-02 -3.16688791e-03]
+ [ 1.14861634e-02 -1.07091200e-03 -8.47871136e-03  5.36548160e-03]
+ [-1.38951074e-02  1.00031160e-02  1.03140827e-02 -5.97115606e-04]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x7d14b9a716c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7d158d0d4210>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x7d14b9a719e0>
+    └ <cnnClassifier.components.model_training.Training object at 0x7d14b9a2d2d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 72, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x7d14be43f2e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x7d14b9a2d2d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/optimizers/base_optimizer.py", line 409, in _check_variables_are_known
+    raise ValueError(
+
+ValueError: Unknown variable: <Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-9.63621121e-03  5.73409721e-04 -8.16724822e-03  2.83151865e-03]
+ [ 1.00623015e-02 -6.28236309e-03 -7.21181650e-03  1.01631507e-03]
+ [-1.42703373e-02  4.39137220e-05  8.77774693e-03  1.24822594e-02]
+ ...
+ [-1.02092596e-02  4.14941460e-04  1.38154421e-02 -3.16688791e-03]
+ [ 1.14861634e-02 -1.07091200e-03 -8.47871136e-03  5.36548160e-03]
+ [-1.38951074e-02  1.00031160e-02  1.03140827e-02 -5.97115606e-04]]>. This optimizer can only be called for the variables it was originally built with. When working with a new set of variables, you should recreate a new optimizer instance.
+2025-07-05 13:32:04 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:32:04 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 13:32:05 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 13:32:05 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:32:05 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 13:32:05 | ERROR    | __main__:<module>:42 | 'TrainingConfig' object has no attribute 'params_learning_rate'
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x71d869e85760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x71d93d9b9b50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 18, in main
+    training.get_base_model()
+    │        └ <function Training.get_base_model at 0x71d869e858a0>
+    └ <cnnClassifier.components.model_training.Training object at 0x71d869e8b650>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 20, in get_base_model
+    optimizer=tf.keras.optimizers.SGD(learning_rate=self.config.params_learning_rate),
+              │  │     │          │                 │    └ TrainingConfig(root_dir=PosixPath('artifacts/training'), trained_model_path=PosixPath('artifacts/training/model.h5'), updated...
+              │  │     │          │                 └ <cnnClassifier.components.model_training.Training object at 0x71d869e8b650>
+              │  │     │          └ <class 'keras.src.optimizers.sgd.SGD'>
+              │  │     └ <module 'keras.optimizers' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packa...
+              │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+              └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+
+AttributeError: 'TrainingConfig' object has no attribute 'params_learning_rate'
+2025-07-05 13:37:30 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:37:30 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 13:37:31 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 13:37:31 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:37:31 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 13:37:31 | ERROR    | __main__:<module>:42 | TrainingConfig.__init__() missing 1 required positional argument: 'params_learning_rate'
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x788af6e69760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x788af6e2f410>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 16, in main
+    training_config = config.get_training_config()
+                      │      └ <function ConfigurationManager.get_training_config at 0x788b99bb4e00>
+                      └ <cnnClassifier.config.configuration.ConfigurationManager object at 0x788bca48c710>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/config/configuration.py", line 69, in get_training_config
+    training_config = TrainingConfig(
+                      └ <class 'cnnClassifier.entity.config_entity.TrainingConfig'>
+
+TypeError: TrainingConfig.__init__() missing 1 required positional argument: 'params_learning_rate'
+2025-07-05 13:38:32 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:38:32 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 13:38:33 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 13:38:33 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:38:33 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 13:50:26 | INFO     | __main__:<module>:40 | >>>>> stage Model Training completed <<<<<<<
+
+x==========x
+2025-07-05 13:56:08 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 13:56:08 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 13:56:08 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 13:56:08 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 13:56:08 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 13:56:28 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:02:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:02:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:02:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:02:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:02:54 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:03:14 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:04:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:04:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:04:31 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:04:31 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:04:31 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:06:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:06:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:06:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:06:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:06:50 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:06:59 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:07:11 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:08:11 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:08:11 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:08:11 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:08:11 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:08:11 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:08:23 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:16:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:16:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:16:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:16:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:16:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:16:36 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:22:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:22:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:22:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:22:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:22:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:22:38 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:24:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:24:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:24:35 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:24:35 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:24:35 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:24:54 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:30:38 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:30:38 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:30:38 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:30:38 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:30:38 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:30:57 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:42:39 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:42:39 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:42:39 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:42:39 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:42:39 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:42:58 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:44:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:44:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:44:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:44:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:44:04 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:44:23 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:47:55 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:47:55 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:47:55 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:47:55 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:47:55 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:48:14 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 14:56:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 14:56:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 14:56:04 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 14:56:04 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 14:56:04 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 14:56:23 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 15:04:33 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:04:33 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:04:33 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:04:33 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:04:33 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:04:52 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-05 15:05:46 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:05:46 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 15:05:47 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 15:05:47 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:05:47 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 15:05:51 | ERROR    | __main__:<module>:42 | {{function_node __wrapped__Conv2DBackpropInput_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng25{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng25{k2=2,k3=0}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes. [Op:Conv2DBackpropInput] name: 
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x7bbbce4416c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7bbca1eb5c90>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x7bbbce4419e0>
+    └ <cnnClassifier.components.model_training.Training object at 0x7bbbce4c1890>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x7bbbd2e1f2e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x7bbbce4c1890>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/backend/tensorflow/trainer.py", line 78, in train_step
+    gradients = tape.gradient(loss, trainable_weights)
+                │    │        │     └ [<Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.01221244  0.00515344  0.00351345 -0.01447616]
+                │    │        │        [ 0....
+                │    │        └ <tf.Tensor: shape=(), dtype=float32, numpy=1.3857608>
+                │    └ <function GradientTape.gradient at 0x7bbc21325b20>
+                └ <tensorflow.python.eager.backprop.GradientTape object at 0x7bbbce44e890>
+
+tensorflow.python.framework.errors_impl.NotFoundError: {{function_node __wrapped__Conv2DBackpropInput_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng25{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng25{k2=2,k3=0}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes. [Op:Conv2DBackpropInput] name: 
+2025-07-05 15:06:58 | INFO     | __main__:<module>:26 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:06:58 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 15:06:59 | INFO     | __main__:<module>:29 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 15:06:59 | INFO     | __main__:<module>:37 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:06:59 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 15:07:03 | ERROR    | __main__:<module>:42 | {{function_node __wrapped__Conv2DBackpropInput_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng25{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng25{k2=2,k3=0}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes. [Op:Conv2DBackpropInput] name: 
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 39, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x72ffcab816c0>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x72ffceab8e50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x72ffcab819e0>
+    └ <cnnClassifier.components.model_training.Training object at 0x72ffcab8c190>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x72ffcf4b32e0>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x72ffcab8c190>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/backend/tensorflow/trainer.py", line 78, in train_step
+    gradients = tape.gradient(loss, trainable_weights)
+                │    │        │     └ [<Variable path=dense/kernel, shape=(25088, 4), dtype=float32, value=[[-0.00707558 -0.01391558 -0.01501383  0.01498768]
+                │    │        │        [-0....
+                │    │        └ <tf.Tensor: shape=(), dtype=float32, numpy=1.272362>
+                │    └ <function GradientTape.gradient at 0x73005c32db20>
+                └ <tensorflow.python.eager.backprop.GradientTape object at 0x72ffc832a210>
+
+tensorflow.python.framework.errors_impl.NotFoundError: {{function_node __wrapped__Conv2DBackpropInput_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng25{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng25{k2=2,k3=0}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77594640 bytes. [Op:Conv2DBackpropInput] name: 
+2025-07-05 15:10:03 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 15:10:03 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 15:10:03 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:10:03 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 15:10:07 | ERROR    | __main__:<module>:51 | Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 48, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x7fc7646b5760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7fc837cd4210>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x7fc7646b5a80>
+    └ <cnnClassifier.components.model_training.Training object at 0x7fc7646ba150>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x7fc76d0eb380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x7fc7646ba150>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+tensorflow.python.framework.errors_impl.NotFoundError: Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+2025-07-05 15:12:10 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:12:10 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-05 15:12:11 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-05 15:12:11 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-05 15:12:11 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-05 15:23:54 | INFO     | __main__:<module>:49 | >>>>> stage Model Training completed <<<<<<<
+
+x==========x
+2025-07-08 08:41:57 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 08:41:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-08 08:41:58 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-08 08:41:58 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 08:41:58 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-08 08:53:50 | INFO     | __main__:<module>:49 | >>>>> stage Model Training completed <<<<<<<
+
+x==========x
+2025-07-08 08:55:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 08:55:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 08:55:58 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 08:55:58 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 08:55:58 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 08:56:17 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-08 09:00:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 09:00:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 09:00:15 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 09:00:15 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 09:00:15 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 09:00:34 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-08 09:03:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 09:03:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 09:03:03 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 09:03:03 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 09:03:03 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 09:03:23 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-08 09:04:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 09:04:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 09:04:46 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 09:04:46 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 09:04:46 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 09:04:57 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-08 09:06:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-08 09:06:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-08 09:06:17 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-08 09:06:17 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-08 09:06:17 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-08 09:06:28 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 18:56:52 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 18:56:52 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 18:56:52 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 18:56:52 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 18:56:52 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 18:57:13 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 18:57:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 18:57:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 18:57:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 18:57:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 18:57:54 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 18:58:06 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 19:03:41 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:03:41 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:03:42 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:03:42 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:03:42 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:03:46 | ERROR    | __main__:<module>:51 | Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 48, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x734c63171760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x734c6423e590>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x734c63171a80>
+    └ <cnnClassifier.components.model_training.Training object at 0x734c631bbd50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x734c67aa7380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x734c631bbd50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+tensorflow.python.framework.errors_impl.NotFoundError: Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+2025-07-09 19:04:29 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:04:29 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:04:30 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:04:30 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:04:30 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:04:33 | ERROR    | __main__:<module>:51 | Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 48, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x752300ca1760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x7523014719d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x752300ca1a80>
+    └ <cnnClassifier.components.model_training.Training object at 0x752300cfb290>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x752305673380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x752300cfb290>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+tensorflow.python.framework.errors_impl.NotFoundError: Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+2025-07-09 19:07:50 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:07:50 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:07:51 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:07:51 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.h5'}}
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:07:51 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:19:40 | INFO     | __main__:<module>:49 | >>>>> stage Model Training completed <<<<<<<
+
+x==========x
+2025-07-09 19:24:57 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:24:57 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:24:57 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:24:57 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:25:18 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:25:18 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:25:19 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:25:19 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:25:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:25:22 | ERROR    | __main__:<module>:51 | Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 48, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x70a0a14b1760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x70a0a14773d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x70a0a14b1a80>
+    └ <cnnClassifier.components.model_training.Training object at 0x70a0a1469010>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x70a0a5c83380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x70a0a1469010>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+tensorflow.python.framework.errors_impl.NotFoundError: Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+2025-07-09 19:26:53 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:26:53 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:26:53 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:26:53 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:26:57 | ERROR    | __main__:<module>:51 | Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 48, in <module>
+    model_training_pipeline.main()
+    │                       └ <function ModelTrainingPipeline.main at 0x735b5f08d760>
+    └ <cnnClassifier.pipeline.stage_03_model_training.ModelTrainingPipeline object at 0x735c326c4b50>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_03_model_training.py", line 20, in main
+    training.train()
+    │        └ <function Training.train at 0x735b5f08da80>
+    └ <cnnClassifier.components.model_training.Training object at 0x735b5f050610>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/model_training.py", line 78, in train
+    self.model.fit(
+    │    │     └ <function TensorFlowTrainer.fit at 0x735b63a53380>
+    │    └ <Functional name=functional, built=True>
+    └ <cnnClassifier.components.model_training.Training object at 0x735b5f050610>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+
+tensorflow.python.framework.errors_impl.NotFoundError: Exception encountered when calling Conv2D.call().
+
+[1m{{function_node __wrapped__Conv2D_device_/job:localhost/replica:0/task:0/device:GPU:0}} No algorithm worked!  Error messages:
+  Profiling failure on CUDNN engine eng1{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 77613072 bytes.
+  Profiling failure on CUDNN engine eng28{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes.
+  Profiling failure on CUDNN engine eng0{}: RESOURCE_EXHAUSTED: Out of memory while trying to allocate 16777216 bytes. [Op:Conv2D][0m
+
+Arguments received by Conv2D.call():
+  • inputs=tf.Tensor(shape=(16, 28, 28, 512), dtype=float32)
+2025-07-09 19:31:43 | INFO     | __main__:<module>:35 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-09 19:31:43 | INFO     | __main__:<module>:38 | >>>>> stage Prepare Base Model completed <<<<<<<
+
+x==========x
+2025-07-09 19:31:43 | INFO     | __main__:<module>:46 | >>>>> stage Model Training started <<<<<<<
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:31:43 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/training
+2025-07-09 19:43:31 | INFO     | __main__:<module>:49 | >>>>> stage Model Training completed <<<<<<<
+
+x==========x
+2025-07-09 19:44:41 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:44:41 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:44:41 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:44:41 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:44:41 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:45:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:45:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:45:19 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:45:19 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:45:19 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:45:38 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 19:48:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:48:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:48:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:48:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:48:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:48:43 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 19:51:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 19:51:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 19:51:54 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 19:51:54 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 19:51:54 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 19:52:13 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
+2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-09 20:01:43 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json

@@ -5,7 +5,6 @@ from zipfile import ZipFile
 import tensorflow as tf
 
 from cnnClassifier.entity.config_entity import PrepareBaseModelConfig
-
 class PrepareBaseModel:
     def __init__(self, config: PrepareBaseModelConfig):
         self.config = config
@@ -43,7 +42,7 @@ class PrepareBaseModel:
         
         full_model.compile(
             optimizer=tf.keras.optimizers.SGD(learning_rate=learning_rate),
-            loss = tf.keras.losses.CategoricalCrossentropy(),
+            loss = tf.keras.losses.CategoricalCrossentropy(reduction='sum_over_batch_size'),
             metrics=['accuracy']
         )
         full_model.summary()
