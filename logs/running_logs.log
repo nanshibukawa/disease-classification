@@ -2075,3 +2075,45 @@ x==========x
 2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 10, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.08}
 2025-07-09 20:01:24 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
 2025-07-09 20:01:43 | INFO     | cnnClassifier.utils.common:save_json:81 | JSON file saved at scores.json
+2025-07-10 08:29:09 | INFO     | __main__:<module>:36 | >>>>> stage Prepare Base Model started <<<<<<<
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from config/config.yaml
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'artifacts_root': 'artifacts', 'data_ingestion': {'root_dir': 'artifacts/data_ingestion', 'source_URL': 'https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing', 'source_URL_id': '1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4', 'local_data_file': 'artifacts/data_ingestion/data.zip', 'unzip_dir': 'artifacts/data_ingestion'}, 'prepare_base_model': {'root_dir': 'artifacts/prepare_base_model', 'base_model_path': 'artifacts/prepare_base_model/base_model.h5', 'updated_base_model_path': 'artifacts/prepare_base_model/base_model_updated.h5'}, 'training': {'root_dir': 'artifacts/training', 'trained_model_path': 'artifacts/training/model.keras'}}
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:read_yaml:35 | YAML file read successfully from params.yaml
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:read_yaml:47 | YAML file content: {'AUGMENTATION': True, 'IMAGE_SIZE': [224, 224, 3], 'BATCH_SIZE': 16, 'INCLUDE_TOP': False, 'EPOCHS': 2, 'CLASSES': 4, 'WEIGHTS': 'imagenet', 'LEARNING_RATE': 0.02}
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts
+2025-07-10 08:29:09 | INFO     | cnnClassifier.utils.common:create_directories:68 | Created directory: artifacts/prepare_base_model
+2025-07-10 08:29:09 | ERROR    | __main__:<module>:41 | cudaSetDevice() on GPU:0 failed. Status: CUDA-capable device(s) is/are busy or unavailable
+Traceback (most recent call last):
+
+> File "/home/nanshibukawa/Documents/mestrado/disease-classification/main.py", line 38, in <module>
+    prepare_base_model_pipeline.main()
+    │                           └ <function PrepareBaseModelTrainingPipeline.main at 0x7e34067896c0>
+    └ <cnnClassifier.pipeline.stage_02_prepare_base_model.PrepareBaseModelTrainingPipeline object at 0x7e33446d4a90>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/pipeline/stage_02_prepare_base_model.py", line 19, in main
+    prepare_base_model.get_base_model()
+    │                  └ <function PrepareBaseModel.get_base_model at 0x7e3355d07ce0>
+    └ <cnnClassifier.components.prepare_base_model.PrepareBaseModel object at 0x7e33445043d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/src/cnnClassifier/components/prepare_base_model.py", line 13, in get_base_model
+    self.model = tf.keras.applications.vgg16.VGG16(
+    │            │  │     │            │     └ <function VGG16 at 0x7e334c495e40>
+    │            │  │     │            └ <module 'keras.applications.vgg16' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/si...
+    │            │  │     └ <module 'keras.applications' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-pac...
+    │            │  └ <module 'keras._tf_keras.keras' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-...
+    │            └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+    └ <cnnClassifier.components.prepare_base_model.PrepareBaseModel object at 0x7e33445043d0>
+
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/applications/vgg16.py", line 129, in VGG16
+    x = layers.Conv2D(
+        │      └ <class 'keras.src.layers.convolutional.conv2d.Conv2D'>
+        └ <module 'keras.src.layers' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packa...
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/utils/traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/keras/src/backend/tensorflow/core.py", line 151, in convert_to_tensor
+    x = tf.convert_to_tensor(x)
+        │  │                 └ [389605514, 0]
+        │  └ <function convert_to_tensor_v2_with_dispatch at 0x7e3398791da0>
+        └ <module 'tensorflow' from '/home/nanshibukawa/Documents/mestrado/disease-classification/.venv/lib/python3.11/site-packages/te...
+
+tensorflow.python.framework.errors_impl.InternalError: cudaSetDevice() on GPU:0 failed. Status: CUDA-capable device(s) is/are busy or unavailable
