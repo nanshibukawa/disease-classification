@@ -2,8 +2,10 @@ artifacts_root: artifacts
 
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing
-  source_URL_id: "1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4"
+  # source_URL: https://drive.google.com/file/d/1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4/view?usp=sharing
+  # source_URL_id: "1oT2VFbMnAScIhUcPpP1q0zjcWZtlSSv4"
+  source_URL: https://drive.google.com/file/d/1tQc-PGonSVSDtfL4HEsd30klq0gXxjqP/view?usp=sharing
+  source_URL_id: "1tQc-PGonSVSDtfL4HEsd30klq0gXxjqP"
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
 

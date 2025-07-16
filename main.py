@@ -1,3 +1,4 @@
+import mlflow
 from cnnClassifier.logger import configure_logger
 from cnnClassifier.pipeline.stage_01_data_ingestion import DataIngestionPipeline
 from cnnClassifier.pipeline.stage_02_prepare_base_model import PrepareBaseModelTrainingPipeline
@@ -17,7 +18,9 @@ if gpus:
 
 logger = configure_logger(logger_name =__name__)
 
-# logger = logger()
+
+mlflow.set_tracking_uri("http://127.0.0.1:5000")
+
 
 # STAGE_NAME = "Data Ingestion stage"
 

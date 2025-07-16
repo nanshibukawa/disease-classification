@@ -65,8 +65,9 @@ class ConfigurationManager:
         # training_data = os.path.join(self.config.data_ingestion.unzip_dir,"kidney-ct-scan-image")
         training_data = os.path.join(
         self.config.data_ingestion.unzip_dir,
-        "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
-        "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone"
+        # "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
+        # "CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone"
+        "bycbh73438-1"
         )
         create_directories([
             Path(self.config.training.root_dir)
@@ -84,11 +85,22 @@ class ConfigurationManager:
         )
         return training_config
     
+    # def get_evaluation_config(self) -> EvaluationConfig:
+    #     eval_config = EvaluationConfig(
+    #         path_of_model = "artifacts/training/model.keras",
+    #         training_data = "artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
+    #         mlflow_uri = "https://dagshub.com/nanshibukawa/disease-classification.mlflow",
+    #         all_params = self.params,
+    #         params_image_size = self.params.IMAGE_SIZE,
+    #         params_batch_size = self.params.BATCH_SIZE
+    #     )
+    #     return eval_config
     def get_evaluation_config(self) -> EvaluationConfig:
         eval_config = EvaluationConfig(
             path_of_model = "artifacts/training/model.keras",
-            training_data = "artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
-            mlflow_uri = "https://dagshub.com/nanshibukawa/disease-classification.mlflow",
+            # training_data = "artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone",
+            training_data = "artifacts/data_ingestion/bycbh73438-1",
+            mlflow_uri = "http://127.0.0.1:5000", # CHANGE THIS TO YOUR LOCAL URI
             all_params = self.params,
             params_image_size = self.params.IMAGE_SIZE,
             params_batch_size = self.params.BATCH_SIZE
