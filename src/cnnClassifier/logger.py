@@ -28,3 +28,7 @@ def configure_logger(
     log.add(log_filepath, level=level, format=log_format, enqueue=True)
     log.add(sys.stdout, level=level, format=log_format)
     return log
+
+logger_instance = configure_logger(logger_name="cnnClassifier")
+
+logger = logger_instance

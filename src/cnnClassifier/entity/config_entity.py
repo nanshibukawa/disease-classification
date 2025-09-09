@@ -19,6 +19,8 @@ class PrepareBaseModelConfig:
     params_include_top: bool
     params_weights: str
     params_classes: int
+    params_model_name: str
+    params_dropout_rate: float
 
 
 @dataclass(frozen=True)

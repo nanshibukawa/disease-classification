@@ -13,33 +13,117 @@ class Evaluation:
         self.config = config
 
     def _create_valid_generator(self):
+        """
+        Cria gerador para avaliação usando dados de teste (se disponível) ou validação
+        """
+        # Verificar se existe conjunto de teste separado
+        split_test_dir = Path("artifacts/data_split/test")
+        split_val_dir = Path("artifacts/data_split/validation")
+        
+        if split_test_dir.exists():
+            # Usar conjunto de teste (ideal para avaliação final)
+            target_dir = split_test_dir
+            datagenerator_kwargs = dict(rescale=1.0 / 255.0)
+            print("Usando conjunto de TESTE para avaliação final")
+        elif split_val_dir.exists():
+            # Usar conjunto de validação separado
+            target_dir = split_val_dir
+            datagenerator_kwargs = dict(rescale=1.0 / 255.0)
+            print("Usando conjunto de VALIDAÇÃO separado para avaliação")
+        else:
+            # Fallback para divisão automática
+            target_dir = self.config.training_data
+            datagenerator_kwargs = dict(
+                rescale=1.0 / 255.0,
+                validation_split=0.3
+            )
+            print("Usando divisão automática para avaliação (fallback)")
 
-        datagenerator_kwargs = dict(
-            rescale=1.0 / 255.0,
-            validation_split=0.3
-        )
         dataflow_kwargs = dict(
             target_size=self.config.params_image_size[:-1],
             batch_size=self.config.params_batch_size,
             interpolation="bilinear"
-            )
+        )
+        
         valid_datagenerator = tf.keras.preprocessing.image.ImageDataGenerator(
             **datagenerator_kwargs
         )
-        self._valid_generator = valid_datagenerator.flow_from_directory(
-            directory=self.config.training_data,
-            subset="validation",
-            shuffle=False,
-            **dataflow_kwargs
-        )
+        
+        if split_test_dir.exists() or split_val_dir.exists():
+            # Usar diretório específico (sem subset)
+            self._valid_generator = valid_datagenerator.flow_from_directory(
+                directory=target_dir,
+                shuffle=False,
+                **dataflow_kwargs
+            )
+        else:
+            # Usar subset validation (divisão automática)
+            self._valid_generator = valid_datagenerator.flow_from_directory(
+                directory=target_dir,
+                subset="validation",
+                shuffle=False,
+                **dataflow_kwargs
+            )
     @staticmethod
     def load_model(path: Path) -> tf.keras.Model:
         return tf.keras.models.load_model(path)
     
+    # def evaluation(self):
+    #     self.model = self.load_model(self.config.path_of_model)
+    #     self._create_valid_generator()
+    #     self.score = self.model.evaluate(self._valid_generator)
+
+    #     # Get predictions and true labels
+    #     y_pred_probs = self.model.predict(self._valid_generator)
+    #     import numpy as np
+    #     from sklearn.metrics import precision_score, recall_score, f1_score
+    #     y_pred = np.argmax(y_pred_probs, axis=1)
+    #     y_true = self._valid_generator.classes
+
+    #     # Calculate metrics
+    #     precision = precision_score(y_true, y_pred, average="weighted")
+    #     recall = recall_score(y_true, y_pred, average="weighted")
+    #     f1 = f1_score(y_true, y_pred, average="weighted")
+
+    #     self.extra_metrics = {
+    #         "precision": float(precision),
+    #         "recall": float(recall),
+    #         "f1_score": float(f1)
+    #     }
+    #     self.save_score()
+
     def evaluation(self):
         self.model = self.load_model(self.config.path_of_model)
         self._create_valid_generator()
         self.score = self.model.evaluate(self._valid_generator)
+
+        # Get predictions and true labels
+        y_pred_probs = self.model.predict(self._valid_generator)
+        import numpy as np
+        from sklearn.metrics import precision_score, recall_score, f1_score
+        y_pred = np.argmax(y_pred_probs, axis=1)
+        y_true = self._valid_generator.classes
+
+        # Calculate metrics
+        precision = precision_score(y_true, y_pred, average="weighted")
+        recall = recall_score(y_true, y_pred, average="weighted")
+        f1 = f1_score(y_true, y_pred, average="weighted")
+
+        self.extra_metrics = {
+            "precision": float(precision),
+            "recall": float(recall),
+            "f1_score": float(f1)
+        }
+
+        # Print F1-score as main metric in the terminal
+        print("================= EVALUATION METRICS =================")
+        print(f"F1-score (weighted): {f1:.4f}   <=== MAIN METRIC")
+        print(f"Precision (weighted): {precision:.4f}")
+        print(f"Recall (weighted): {recall:.4f}")
+        print(f"Loss: {self.score[0]:.4f}")
+        print(f"Accuracy: {self.score[1]:.4f}")
+        print("======================================================")
+
         self.save_score()
 
     def save_score(self):
@@ -47,83 +131,63 @@ class Evaluation:
             "loss": self.score[0],
             "accuracy": self.score[1],
         }
+        if hasattr(self, "extra_metrics"):
+            scores.update(self.extra_metrics)
         save_json(
-            path = Path("scores.json"),
+            path=Path("scores.json"),
             data=scores
         )
 
     def log_into_mlflow(self):
+        # Check if MLflow logging should be disabled (when running in multi-param mode)
+        import os
+        if os.environ.get('DISABLE_MLFLOW_EVALUATION') == 'true':
+            print("MLflow logging disabled for evaluation pipeline (already in MLflow run context)")
+            return
+            
         mlflow.set_registry_uri(self.config.mlflow_uri)
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
-        with mlflow.start_run():
+        # Check if there's already an active run
+        active_run = mlflow.active_run()
+        if active_run:
+            print(f"Using existing MLflow run: {active_run.info.run_id}")
+            # Log to existing run instead of creating new one
             mlflow.log_params(self.config.all_params)
+            # Log main metrics
             mlflow.log_metrics({
                 "loss": self.score[0],
                 "accuracy": self.score[1],
             })
+            # Log extra metrics if available
+            if hasattr(self, "extra_metrics"):
+                mlflow.log_metrics(self.extra_metrics)
 
-
-            # --- NEW APPROACH FOR LOGGING MODEL ---
-            # 1. Define a temporary path to save the model locally before logging
-            # local_model_path = Path("local_model_to_log.keras")
-            local_model_path = Path("VGG16Model.keras")
-            # 2. Save the model directly using Keras's save method
-            # This is where you specify the .keras extension explicitly
-            # and avoid the deprecated 'save_format' argument.
+            # --- LOGGING MODEL AS ARTIFACT ---
+            local_model_path = Path("VGG19Model.keras")
             self.model.save(local_model_path)
             print(f"Model temporarily saved to: {local_model_path}")
-
-            # 3. Log the saved model file as an artifact
-            # You can still give it a name within MLflow artifacts (e.g., "model.keras")
             mlflow.log_artifact(str(local_model_path), artifact_path="model.keras")
-
-            # 4. If you want to REGISTER the model, use mlflow.register_model
-            # This points to the artifact you just logged.
-            # Make sure you have the full artifact URI.
-            # You might need to construct this based on your run_id
-            # For simplicity, for now, we'll just log the artifact.
-            # If you specifically need model registration, it's a bit more involved
-            # to get the correct URI.
-            # A common pattern is:
-            logged_model_uri = f"runs:/{mlflow.active_run().info.run_id}/model.keras"
-            mlflow.register_model(logged_model_uri, "VGG16Model")
-            # --- END NEW APPROACH ---
-
-            # Remove the previous mlflow.keras.log_model calls
-            # if tracking_url_type_store != "file":
-            #     mlflow.keras.log_model(
-            #         self.model,
-            #         "model.keras",
-            #         registered_model_name="VGG16Model",
-            #         keras_model_kwargs={"save_format": "keras"} # THIS IS NOW THE PROBLEM
-            #     )
-            # else:
-            #     mlflow.keras.log_model(
-            #         self.model,
-            #         "model.keras",
-            #         keras_model_kwargs={"save_format": "keras"} # THIS IS NOW THE PROBLEM
-            #     )
-
-            # Clean up the local temporary file
             if local_model_path.exists():
                 os.remove(local_model_path)
+        else:
+            # Create new run only if no active run exists
+            with mlflow.start_run():
+                mlflow.log_params(self.config.all_params)
+                # Log main metrics
+                mlflow.log_metrics({
+                    "loss": self.score[0],
+                    "accuracy": self.score[1],
+                })
+                # Log extra metrics if available
+                if hasattr(self, "extra_metrics"):
+                    mlflow.log_metrics(self.extra_metrics)
+
+                # --- LOGGING MODEL AS ARTIFACT ---
+                local_model_path = Path("VGG19Model.keras")
+                self.model.save(local_model_path)
+                print(f"Model temporarily saved to: {local_model_path}")
+                mlflow.log_artifact(str(local_model_path), artifact_path="model.keras")
+                if local_model_path.exists():
+                    os.remove(local_model_path)
                 print(f"Cleaned up local model file: {local_model_path}")
-
-
-
-            # if tracking_url_type_store != "file":
-            #     mlflow.keras.log_model(
-            #         self.model,
-            #         "model.keras", # This is the artifact path within MLflow
-            #         registered_model_name="VGG16Model",
-            #         # ADD THIS ARGUMENT:
-            #         keras_model_kwargs={"save_format": "keras"}
-            #     )
-            #     # mlflow.keras.log_model(self.model, "model.keras", registered_model_name="VGG16Model")
-
-            # else:
-            #     mlflow.keras.log_model(self.model, "model.keras"
-            #         # self.model,
-            #         # "model.keras"
-            #     )
